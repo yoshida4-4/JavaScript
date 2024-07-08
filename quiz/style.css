@@ -1,0 +1,27 @@
+/* .a5 {
+    opacity: 0;
+    overflow: hidden;
+} */
+
+div {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+h3, p {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3 {
+    width: 350px;
+}
+
+p {
+    width: 200px;
+}
