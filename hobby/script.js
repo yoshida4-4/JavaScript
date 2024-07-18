@@ -3,7 +3,6 @@ const C = idC.getContext('2d')
 
 // C.strokeRect(250, 150, 50, 100)
 
-// widthがなぜか150になっている
 // 横軸(y)のループ
 for (i=0; i<5; i++) {
     // 縦軸(x)のループ
@@ -26,4 +25,11 @@ for (i=0; i<list.length; i++) {
     C.fill()
 }
 
-// [[2, 1],[4, 3],[5, 4]]
+C.font = '20px serif'
+C.fillText('〇', 5, 32)
+
+C.font = '20px serif'
+C.fillText('〇', 5, 132)
+
+C.font = '20px serif'
+C.fillText('×', 5, 282)
